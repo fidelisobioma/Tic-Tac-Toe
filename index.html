@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE GAME</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay">
+        <form>
+          <div>
+            <label for="player1">Player1</label>
+            <br />
+            <input type="text" id="player1" value="" required /><span>X</span>
+          </div>
+          <div>
+            <label for="player2">Player2</label>
+            <br />
+            <input type="text" id="player2" required /><span>O</span>
+          </div>
+          <div>
+            <button class="startgame">START GAME</button>
+          </div>
+        </form>
+      </div>
+      <header>
+        <div class="player_container">
+          <div class="players">
+            <div class="firstplayer">player1</div>
+            <div class="vs">VS</div>
+            <div class="secondplayer">player2</div>
+          </div>
+          <div class="playerturn">player1 turn</div>
+        </div>
+        <div class="winner_container">
+          <div>
+            <p class="winner">Fidex Win!</p>
+            <button class="playagain">Play Again</button>
+            <!-- <button class="quit">Quit</button> -->
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="board">
+          <div class="box" id="a"></div>
+          <div class="box" id="b"></div>
+          <div class="box" id="c"></div>
+          <div class="box" id="d"></div>
+          <div class="box" id="e"></div>
+          <div class="box" id="f"></div>
+          <div class="box" id="g"></div>
+          <div class="box" id="h"></div>
+          <div class="box" id="i"></div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
